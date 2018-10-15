@@ -10,5 +10,9 @@ describe "problem3" do
     expect(@problem3.number_to_factorize).to be > 0
   end
 
+  it "should be an array" do
+    expect(@problem3.factors).to be_kind_of(Array)
+  end
+
 
 end
