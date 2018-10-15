@@ -14,5 +14,9 @@ describe "problem3" do
     expect(@problem3.factors).to be_kind_of(Array)
   end
 
+  it "should be the largest element in the array" do
+    expect(@problem3.factors.max).to eq(@problem3.factors.last)
+  end
+
 
 end
