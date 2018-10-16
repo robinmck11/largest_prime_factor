@@ -7,8 +7,6 @@ class Problem3
 
   def largest_factor
 
-    #Initialize as two
-
     @factor = 2
 
     while @num_to_factorize > @factor
